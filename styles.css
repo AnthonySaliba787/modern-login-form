@@ -219,397 +219,108 @@ input:hover {
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 992px) {
   #form-box {
-    width: 95%;
+    width: 35%;
     height: 80%;
   }
 
   #sign-up {
-    font-size: 0.7em;
+    font-size: 1.5em;
   }
 
   #form-title {
-    font-size: 1.6em;
+    font-size: 2.8em;
   }
 
   .input-container {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 1.7em;
+  }
+
+  #email-form {
+    background-size: 40px;
+    background-position-x: 10px;
+    padding-left: 70px;
+  }
+
+  #pass-form {
+    background-size: 40px;
+    background-position-x: 10px;
+    padding-left: 70px;
+  }
+
+  #login {
+    font-size: 1.8em;
   }
 
   #google-login {
-    background-size: 20px;
+    background-size: 40px;
   }
 
   #twitter-login {
-    background-size: 20px;
+    background-size: 40px;
   }
 
   #facebook-login {
-    background-size: 12px;
+    background-size: 25px;
   }
 
   #github-login {
-    background-size: 20px;
+    background-size: 40px;
   }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 320px) and (orientation: landscape) {
+@media only screen and (max-width: 991px) {
   #form-box {
-    width: 55%;
-    height: 90%;
-  }
-
-  #sign-up {
-    font-size: 0.6em;
-  }
-
-  #form-title {
-    font-size: 1.4em;
-  }
-
-  .input-container {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  #google-login {
-    background-size: 15px;
-  }
-
-  #twitter-login {
-    background-size: 15px;
-  }
-
-  #facebook-login {
-    background-size: 10px;
-  }
-
-  #github-login {
-    background-size: 15px;
-  }
-}
-
-@media only screen and (max-width: 480px) and (min-width: 320px) and (orientation: portrait) {
-  #form-box {
-    width: 85%;
-    height: 80%;
-  }
-
-  #sign-up {
-    font-size: 0.6em;
-  }
-
-  #form-title {
-    font-size: 1.4em;
-  }
-
-  .input-container {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  #google-login {
-    background-size: 15px;
-  }
-
-  #twitter-login {
-    background-size: 15px;
-  }
-
-  #facebook-login {
-    background-size: 10px;
-  }
-
-  #github-login {
-    background-size: 15px;
-  }
-}
-
-@media only screen and (max-height: 720px) and (min-height: 480px) and (orientation: portrait) {
-  #form-box {
-    width: 85%;
-    height: 55%;
-  }
-
-  #sign-up {
-    font-size: 0.6em;
-  }
-
-  #form-title {
-    font-size: 1.4em;
-  }
-
-  .input-container {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  #google-login {
-    background-size: 15px;
-  }
-
-  #twitter-login {
-    background-size: 15px;
-  }
-
-  #facebook-login {
-    background-size: 10px;
-  }
-
-  #github-login {
-    background-size: 15px;
-  }
-}
-
-@media only screen and (max-height: 1000px) and (min-height: 720px) and (orientation: portrait) {
-  #form-box {
-    width: 85%;
+    width: 90%;
     height: 50%;
   }
 
   #sign-up {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
 
   #form-title {
-    font-size: 1.4em;
+    font-size: 2em;
   }
 
   .input-container {
     padding-left: 40px;
     padding-right: 40px;
-  }
-
-  #google-login {
-    background-size: 15px;
-  }
-
-  #twitter-login {
-    background-size: 15px;
-  }
-
-  #facebook-login {
-    background-size: 10px;
-  }
-
-  #github-login {
-    background-size: 15px;
-  }
-}
-
-@media only screen and (max-height: 1600px) and (min-height: 1000px) and (orientation: portrait) {
-  #form-box {
-    width: 80%;
-    height: 75%;
-  }
-
-  #sign-up {
     font-size: 1.2em;
   }
 
-  #form-title {
-    font-size: 2.4em;
-  }
-
-  .input-container {
-    padding-left: 60px;
-    padding-right: 60px;
-    font-size: 1.3em;
-  }
-
-  #login {
-    font-size: 1.5em;
-  }
-
-  #google-login {
-    background-size: 30px;
-  }
-
-  #twitter-login {
-    background-size: 30px;
-  }
-
-  #facebook-login {
-    background-size: 20px;
-  }
-
-  #github-login {
-    background-size: 30px;
-  }
-}
-
-@media only screen and (max-width: 768px) and (min-width: 480px) and (orientation: portrait) {
-  #form-box {
-    width: 85%;
-    height: 80%;
-  }
-
-  #sign-up {
-    font-size: 1.1em;
-  }
-
-  #form-title {
-    font-size: 2.2em;
-  }
-
-  .input-container {
-    padding-left: 60px;
-    padding-right: 60px;
-    font-size: 1.4em;
-  }
-
-  #login {
-    font-size: 1.5em;
-  }
-
-  #google-login {
-    background-size: 25px;
-  }
-
-  #twitter-login {
-    background-size: 25px;
-  }
-
-  #facebook-login {
-    background-size: 20px;
-  }
-
-  #github-login {
-    background-size: 25px;
-  }
-}
-
-@media only screen and (max-width: 992px) and (min-width: 768px) and (orientation: landscape) {
-  #form-box {
-    width: 50%;
-    height: 85%;
-  }
-
-  #sign-up {
-    font-size: 1.1em;
-  }
-
-  #form-title {
-    font-size: 2.2em;
-  }
-
-  .input-container {
-    padding-left: 60px;
-    padding-right: 60px;
-    font-size: 1.4em;
-  }
-
-  #login {
-    font-size: 1.5em;
-  }
-
-  #google-login {
-    background-size: 25px;
-  }
-
-  #twitter-login {
-    background-size: 25px;
-  }
-
-  #facebook-login {
-    background-size: 20px;
-  }
-
-  #github-login {
-    background-size: 25px;
-  }
-}
-
-@media only screen and (max-width: 1920px) and (min-width: 992px) and (orientation: landscape) {
-  #form-box {
-    width: 35%;
-    height: 85%;
-  }
-
-  #sign-up {
-    font-size: 1.1em;
-  }
-
-  #form-title {
-    font-size: 2.2em;
-  }
-
-  .input-container {
-    padding-left: 70px;
-    padding-right: 70px;
-    font-size: 1.6em;
-  }
-
-  #login {
-    font-size: 1.6em;
-  }
-
-  #google-login {
-    background-size: 30px;
-  }
-
-  #twitter-login {
-    background-size: 30px;
-  }
-
-  #facebook-login {
-    background-size: 25px;
-  }
-
-  #github-login {
-    background-size: 30px;
-  }
-}
-
-@media only screen and (max-width: 3840px) and (min-width: 1920px) and (orientation: landscape) {
-  #form-box {
-    width: 35%;
-    height: 75%;
-  }
-
-  #sign-up {
-    font-size: 2em;
-  }
-
-  #form-title {
-    font-size: 4.6em;
-  }
-
-  .input-container {
-    padding-left: 150px;
-    padding-right: 150px;
-    font-size: 2.6em;
-  }
-
   #email-form {
-    background-size: 50px;
-    padding-left: 80px;
+    background-size: 25px;
+    background-position-x: 10px;
+    padding-left: 45px;
   }
 
   #pass-form {
-    background-size: 50px;
-    padding-left: 80px;
+    background-size: 25px;
+    background-position-x: 10px;
+    padding-left: 45px;
   }
 
   #login {
-    font-size: 3em;
+    font-size: 1.2em;
   }
 
   #google-login {
-    background-size: 60px;
+    background-size: 25px;
   }
 
   #twitter-login {
-    background-size: 60px;
+    background-size: 25px;
   }
 
   #facebook-login {
-    background-size: 45px;
+    background-size: 15px;
   }
 
   #github-login {
-    background-size: 60px;
+    background-size: 25px;
   }
 }
