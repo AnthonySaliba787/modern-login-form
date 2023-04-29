@@ -650,3 +650,57 @@ input:hover {
     background-size: 30px;
   }
 }
+
+/* Media query for virtual keyboard */
+@media only screen and (min-height: 270px) and (max-height: 500px) {
+  #form-box {
+    width: 45%;
+    height: 90%;
+  }
+
+  #sign-up {
+    font-size: 0.7em;
+  }
+
+  #form-title {
+    font-size: 1.7em;
+  }
+
+  .input-container {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 1em;
+  }
+
+  #email-form {
+    background-size: 25px;
+    background-position-x: 10px;
+    padding-left: 40px;
+  }
+
+  #pass-form {
+    background-size: 25px;
+    background-position-x: 10px;
+    padding-left: 40px;
+  }
+
+  #login {
+    font-size: 1em;
+  }
+
+  #google-login {
+    background-size: 20px;
+  }
+
+  #twitter-login {
+    background-size: 20px;
+  }
+
+  #facebook-login {
+    background-size: 12px;
+  }
+
+  #github-login {
+    background-size: 20px;
+  }
+}
