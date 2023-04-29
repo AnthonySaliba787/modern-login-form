@@ -44,6 +44,7 @@ html {
   border-style: solid;
   border-width: 0;
   color: white;
+  transition: 0.3s;
 }
 
 #form-title {
@@ -83,6 +84,8 @@ html {
   border-radius: 4px;
   color: #8e8e8e;
   font-size: 1em;
+  transition: 0.3s;
+  outline: none;
 }
 
 #email-form {
@@ -115,6 +118,7 @@ html {
   border-width: 0;
   color: white;
   margin-top: 22%;
+  transition: 0.3s;
 }
 
 #solid-divider {
@@ -146,6 +150,7 @@ html {
   border-radius: 100%;
   width: 17%;
   height: 50%;
+  transition: 0.3s;
 }
 
 #google-login {
@@ -178,4 +183,38 @@ html {
   background-position: left;
   background-size: 25px;
   background-position: center;
+}
+
+input:hover {
+  border-color: black;
+}
+
+#sign-up:hover {
+  background: #848484;
+}
+
+#sign-up:active {
+  background: #c8c8c8;
+  color: #3d3d3d;
+}
+
+#login:hover {
+  background: #848484;
+}
+
+#login:active {
+  background: #c8c8c8;
+  color: #3d3d3d;
+}
+
+.login-button:hover {
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.login-button:active {
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
 }
