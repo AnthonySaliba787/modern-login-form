@@ -706,7 +706,7 @@ input:hover {
 }
 
 /* Media query for phone screen squishing */
-@media only screen and (min-width: 600px) and (max-height: 269px) {
+@media only screen and (min-width: 600px) and (max-height: 269px) and (orientation: portrait) {
   #form-box {
     width: 31%;
     height: 90%;
