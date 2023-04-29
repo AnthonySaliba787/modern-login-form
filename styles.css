@@ -651,7 +651,7 @@ input:hover {
   }
 }
 
-/* Media query for virtual keyboard */
+/* Media query for screen squishing */
 @media only screen and (min-height: 270px) and (max-height: 500px) {
   #form-box {
     width: 45%;
@@ -702,5 +702,59 @@ input:hover {
 
   #github-login {
     background-size: 20px;
+  }
+}
+
+/* Media query for phone screen squishing */
+@media only screen and (min-width: 600px) and (max-height: 269px) {
+  #form-box {
+    width: 31%;
+    height: 90%;
+  }
+
+  #sign-up {
+    font-size: 0.4em;
+  }
+
+  #form-title {
+    font-size: 1.2em;
+  }
+
+  .input-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 0.5em;
+  }
+
+  #email-form {
+    background-size: 15px;
+    background-position-x: 10px;
+    padding-left: 30px;
+  }
+
+  #pass-form {
+    background-size: 15px;
+    background-position-x: 10px;
+    padding-left: 30px;
+  }
+
+  #login {
+    font-size: 0.6em;
+  }
+
+  #google-login {
+    background-size: 15px;
+  }
+
+  #twitter-login {
+    background-size: 15px;
+  }
+
+  #facebook-login {
+    background-size: 8px;
+  }
+
+  #github-login {
+    background-size: 15px;
   }
 }
