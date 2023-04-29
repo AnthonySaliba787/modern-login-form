@@ -291,6 +291,155 @@ input:hover {
   }
 }
 
+@media only screen and (max-width: 480px) and (min-width: 320px) and (orientation: portrait) {
+  #form-box {
+    width: 85%;
+    height: 80%;
+  }
+
+  #sign-up {
+    font-size: 0.6em;
+  }
+
+  #form-title {
+    font-size: 1.4em;
+  }
+
+  .input-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #google-login {
+    background-size: 15px;
+  }
+
+  #twitter-login {
+    background-size: 15px;
+  }
+
+  #facebook-login {
+    background-size: 10px;
+  }
+
+  #github-login {
+    background-size: 15px;
+  }
+}
+
+@media only screen and (max-height: 720px) and (min-height: 480px) and (orientation: portrait) {
+  #form-box {
+    width: 85%;
+    height: 55%;
+  }
+
+  #sign-up {
+    font-size: 0.6em;
+  }
+
+  #form-title {
+    font-size: 1.4em;
+  }
+
+  .input-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #google-login {
+    background-size: 15px;
+  }
+
+  #twitter-login {
+    background-size: 15px;
+  }
+
+  #facebook-login {
+    background-size: 10px;
+  }
+
+  #github-login {
+    background-size: 15px;
+  }
+}
+
+@media only screen and (max-height: 1000px) and (min-height: 720px) and (orientation: portrait) {
+  #form-box {
+    width: 85%;
+    height: 50%;
+  }
+
+  #sign-up {
+    font-size: 0.6em;
+  }
+
+  #form-title {
+    font-size: 1.4em;
+  }
+
+  .input-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #google-login {
+    background-size: 15px;
+  }
+
+  #twitter-login {
+    background-size: 15px;
+  }
+
+  #facebook-login {
+    background-size: 10px;
+  }
+
+  #github-login {
+    background-size: 15px;
+  }
+}
+
+@media only screen and (max-height: 1600px) and (min-height: 1000px) and (orientation: portrait) {
+  #form-box {
+    width: 80%;
+    height: 75%;
+  }
+
+  #sign-up {
+    font-size: 1.2em;
+  }
+
+  #form-title {
+    font-size: 2.4em;
+  }
+
+  .input-container {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 1.3em;
+  }
+
+  #login {
+    font-size: 1.5em;
+  }
+
+  #google-login {
+    background-size: 30px;
+  }
+
+  #twitter-login {
+    background-size: 30px;
+  }
+
+  #facebook-login {
+    background-size: 20px;
+  }
+
+  #github-login {
+    background-size: 30px;
+  }
+}
+
 @media only screen and (max-width: 768px) and (min-width: 480px) and (orientation: portrait) {
   #form-box {
     width: 85%;
@@ -332,7 +481,7 @@ input:hover {
   }
 }
 
-@media only screen and (max-width: 992px) and (min-width: 768px) {
+@media only screen and (max-width: 992px) and (min-width: 768px) and (orientation: landscape) {
   #form-box {
     width: 50%;
     height: 85%;
@@ -373,7 +522,7 @@ input:hover {
   }
 }
 
-@media only screen and (max-width: 1920px) and (min-width: 992px) {
+@media only screen and (max-width: 1920px) and (min-width: 992px) and (orientation: landscape) {
   #form-box {
     width: 35%;
     height: 85%;
@@ -414,7 +563,7 @@ input:hover {
   }
 }
 
-@media only screen and (max-width: 3840px) and (min-width: 1920px) {
+@media only screen and (max-width: 3840px) and (min-width: 1920px) and (orientation: landscape) {
   #form-box {
     width: 35%;
     height: 75%;
