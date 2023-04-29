@@ -1,7 +1,14 @@
 html {
-  background-image: url("./img/mountains.jpg"),
-    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  background-image: url("./img/Background.png");
   background-size: cover;
-  background-blend-mode: overlay;
-  filter: blur(30px);
+}
+
+#form-box {
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
 }
