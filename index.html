@@ -5,11 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
     <title>Login Form</title>
   </head>
   <body>
-    <div id="form-box">
-      <button>test</button>
+    <div class="container">
+      <div id="form-box">
+        <button id="sign-up">Sign Up</button>
+        <p id="form-title">Account Login</p>
+        <form id="main-form">
+          <div class="input-container">
+            <input
+              class="input-field"
+              id="email-form"
+              type="email"
+              name="mail"
+              value=""
+              placeholder="Email"
+            />
+          </div>
+          <div class="input-container">
+            <input
+              class="input-field"
+              id="pass-form"
+              type="password"
+              name="pass"
+              value=""
+              placeholder="Password"
+            />
+          </div>
+        </form>
+        <button id="login">Login</button>
+        <hr id="solid-divider" />
+        <div id="social-links">
+          <button class="login-button" id="google-login"></button>
+          <button class="login-button" id="twitter-login"></button>
+          <button class="login-button" id="facebook-login"></button>
+          <button class="login-button" id="github-login"></button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
